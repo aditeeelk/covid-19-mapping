@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>US COVID-19 Confirmed Cases (2020)</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <div id="meta-panel">
+        <h1>US COVID-19 Confirmed Cases (2020)</h1>
+        <div class="meta-subtitle">Total confirmed cases by county</div>
+        <p class="meta-desc">
+            Proportional symbol map of county-level totals. Click a circle to see the county name and case count.
+        </p>
+        <p class="meta-small">
+            <strong>Sources:</strong>
+            <a href="https://github.com/nytimes/covid-19-data" target="_blank">NYT COVID-19 Data</a>,
+            <a href="https://www.census.gov/geographies/mapping-files.html" target="_blank">US Census Bureau</a>
+        </p>
+        <p class="meta-small"><a href="map1.html">View choropleth rate map</a></p>
+    </div>
+
+    <div id="legend">
+        <div class="legend-title">Cases</div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
